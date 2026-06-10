@@ -30,6 +30,7 @@ src/main/java/com/risheek/secureapi/
 ├── User.java                        # User entity
 ├── UserRepository.java              # Database layer
 ├── CustomUserDetailsService.java    # Spring Security bridge
+├── GlobalExceptionHandler.java      # Handle 403 response during login
 ├── JwtUtil.java                     # Token generation & validation
 ├── JwtAuthFilter.java               # Intercepts every request
 ├── SecurityConfig.java              # Security rules & filter chain
